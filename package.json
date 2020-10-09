@@ -1,0 +1,25 @@
+{
+  "name": "epsilon-pydev-ide",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "Max1Truc",
+  "license": "MIT",
+  "devDependencies": {
+    "file-loader": "^6.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "codemirror": "^5.58.1",
+    "css-loader": "^4.3.0",
+    "numworks.js": "^1.1.0",
+    "postcss-loader": "^4.0.3",
+    "style-loader": "^1.3.0"
+  }
+}
